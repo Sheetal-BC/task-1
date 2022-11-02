@@ -1,0 +1,51 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+  height: 28rem;
+}
+
+.first-section {
+  margin: 5rem;
+}
+
+.second-section img {
+  height: 28rem;
+  width: 32rem;
+  clip-path: polygon(
+    3% 39%,
+    34% 0,
+    100% 0,
+    100% 100%,
+    34% 100%,
+    3% 55%,
+    1% 50%,
+    1% 44%
+  );
+}
+
+.detail h1 {
+  color: rgb(7, 74, 119);
+  font-weight: 500;
+}
+.detail p {
+  width: 25rem;
+  height: 6.9rem;
+  overflow: hidden;
+  white-space: unset;
+  text-overflow: ellipsis;
+  color: lightslategray;
+}
+
+.more-btn {
+  width: 7.5rem;
+  height: 2.5rem;
+  color: white;
+  background-color: rgb(7, 74, 119);
+  border-radius: 8px;
+  border: none;
+  font-size: 13px;
+}
+
+.arrow-right svg {
+  padding: 2px 0px 0px 5px;
+}
