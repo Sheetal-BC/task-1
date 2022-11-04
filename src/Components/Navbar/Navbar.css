@@ -2,6 +2,10 @@ header{
     margin-top: -1.2%;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
 .first-header{
   width:100%;
   margin-top: 0%;
@@ -67,5 +71,8 @@ button:hover{
     padding-left: 50px;
 }
 
+.third{
+    height: 100vh;
+}
 
 

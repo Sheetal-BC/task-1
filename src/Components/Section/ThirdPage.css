@@ -1,0 +1,81 @@
+#third{
+    height: 100vh;
+}
+
+.third--one{
+    
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18%;
+    column-gap: 60px;
+    padding-left: 7rem;
+    color:  rgb(7, 74, 119);
+    background-color: whitesmoke;
+    padding-top: 2rem;
+  
+    
+ 
+}
+
+.third--first h5{
+    font-weight: 400;
+    font-size: 14px;
+}
+.third--first h1{
+  font-size: 2.8rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  position: relative;
+  top: -26px;
+}
+
+.third--first p{
+  font-size: 13px;
+   position: relative;
+  top: -57px;
+  line-height: 1.4rem;
+}
+
+.third--first h4{
+  font-size: 13px;
+  position: relative;
+  top: -50px;
+   font-size: 16px;
+}
+
+.tag--img{
+    width: 100%;
+   height: 33%;
+    background-image: url("4.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+    color: white;
+   
+}
+
+.first-text p{
+    font-weight: 200;
+    font-size: 10px;
+    color: #54A0D4;
+}
+
+.first-text h4{
+    font-weight: 500;
+   
+}
+
+.arw-icon{
+    color: rgb(7, 74, 119);
+    font-size: 15px;
+    
+}
+
+.left-arw{
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    width: 2.5rem;
+    margin-left: 0.5rem;
+}

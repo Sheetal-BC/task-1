@@ -1,0 +1,134 @@
+
+
+#sixth{
+    height: 100vh;
+}
+
+.sixth-first{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.sixth-second{
+    height: 58%;
+    width:100%;
+    background-image: url('21.png');
+    background-repeat: no-repeat;
+    background-size: 100% 90% ;
+    display: grid;
+    grid-template-columns: 30% 35% 30%;
+    column-gap: 10px;
+    text-align: left;
+    color: white;
+    
+}
+
+.new-img{
+    width: 40%;
+
+}
+
+.first-grid, .second-grid, .third-grid {
+  height: 50%;
+  padding-left: 20px;
+}
+
+.six-left h1{
+    color: #12406F;
+    font-weight: 500;
+   
+}
+
+.six-left p{
+    color: #525252;
+    font-size: 14px;
+   
+}
+
+.six-left input{
+    width: 20rem;
+    height: 2rem;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 8px;
+    border: none;
+}
+
+.six-left input::placeholder{
+    padding-left: 20px;
+}
+.subscribe-btn{
+    background-color:#12406F ;
+    border: none;
+    box-shadow: 0px 1px 8px #00000029;
+    margin-left: 20px;
+    height: 2.2rem;
+    width: 7.2rem;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+   
+}
+
+.second-grid h2{
+  padding-left: 130px;
+  font-weight: 500;
+  
+}
+
+ a.social {
+    margin-right: 2.2rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  a.youtube {
+    color: whitesmoke;
+  }
+
+   a.twitter {
+    color: whitesmoke;
+  }
+
+   a.instagram {
+    color: whitesmoke;
+  }
+
+   a.facebook {
+    color: whitesmoke;
+  }
+
+   a.linkedin {
+    color: whitesmoke;
+  }
+
+   a.quora {
+    color: whitesmoke;
+  }
+
+
+  .locations{
+    display: grid;
+    grid-template-columns: 10% 90%;
+  }
+
+  .locations p{
+    font-size: 13px;
+   position: relative;
+   top: -15px;
+  }
+
+  .third-grid h2{
+    font-weight: 500;
+  }
+
+   .first-grid h2{
+    font-weight: 500;
+  }
+
+   .first-grid p{
+    font-size: 13px;
+  }

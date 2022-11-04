@@ -1,0 +1,48 @@
+#fourth{
+    height: 100vh;
+}
+
+.card--two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.to--float{
+    position: relative;
+    bottom: 383px;
+    background-color: #54A0D4;
+    color: white;
+    width: 110px;
+    height: 38px;
+    border-radius: 26px 0 15px 0;
+    text-align: center;
+    
+}
+
+.to--float h6{
+    padding-top: 4px;
+     position: relative;
+     top: 5px;
+     font-size: 13px;
+     font-weight: 300;
+}
+
+.card-img-head img{
+    width: 100%;
+    border-radius: 26px 26px 0 0;
+}
+
+.card-img-body h5{
+    color: #525252;
+    margin: 20px;
+    font-weight: 400;
+}
+
+.card-img-body p{
+    color: #12406F;
+    margin: 20px;
+    font-weight: 400;
+}

@@ -1,0 +1,104 @@
+#second{
+    height: 100vh;
+}
+
+.second-footer{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 6rem;
+   margin-left: 3rem;
+  
+}
+
+.heading{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 1rem;
+}
+
+.regi{
+    color: lightslategrey;
+    font-size: 12px;
+    
+}
+
+.heading h1{
+    color:  rgb(7, 74, 119);
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+
+.line{
+    border-right: 0.1rem solid rgb(216, 221, 226);
+    height:100px;
+    padding-left: 30px;
+    margin-top: 18px;
+}
+
+.first-time, .second-time, .third-time{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 1.4rem;
+  
+}
+
+
+.first-time p, .second-time p, .third-time p{
+    position: relative;
+    bottom: 20px;
+    color: lightslategray;
+    font-size: 13px;
+}
+
+.first-time h4, .second-time h4, .third-time h4{
+  
+    color: rgb(7, 74, 119);
+    font-size: 15px;
+   
+}
+
+
+.time img{
+    padding-top: 28px;
+    margin-right: 0.5rem;
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: flex-start;
+    margin: 7rem;
+    color: white;
+
+}
+
+.card-header{
+  padding: 2rem 0 0 2rem;
+  font-weight: 500;
+}
+
+.card-body{
+    height:35px;
+    overflow: hidden;
+    white-space: unset;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 13px;
+}
+
+.card-btn{
+    background-color: inherit;
+    border: none;
+    color: white;
+    padding-left: 2rem;
+    font-size: 13px;
+}
+
+.more{
+   color: white;
+   font-size: 16px;
+   padding-left: 5px;
+   padding-top: 5px;
+}
+

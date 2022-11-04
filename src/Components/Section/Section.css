@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   height: 28rem;
+  background-color: whitesmoke;
 }
 
 .first-section {
@@ -10,17 +11,9 @@
 
 .second-section img {
   height: 28rem;
-  width: 32rem;
-  clip-path: polygon(
-    3% 39%,
-    34% 0,
-    100% 0,
-    100% 100%,
-    34% 100%,
-    3% 55%,
-    1% 50%,
-    1% 44%
-  );
+  width: 40rem;
+
+  
 }
 
 .detail h1 {
@@ -29,11 +22,12 @@
 }
 .detail p {
   width: 25rem;
-  height: 6.9rem;
+  height: 4.5rem;
   overflow: hidden;
   white-space: unset;
   text-overflow: ellipsis;
-  color: lightslategray;
+  color: #525252;
+  font-size: 13px;
 }
 
 .more-btn {
@@ -49,3 +43,94 @@
 .arrow-right svg {
   padding: 2px 0px 0px 5px;
 }
+
+.first-footer{
+    display:grid;
+    grid-template-columns: 33.3% 33.3% 33.4%;
+    color: white;
+   
+   
+}
+
+.to-align{
+    width: 68%;
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    top: -30px;  
+}
+.first-part{
+    background-color: #54A0D4;
+    padding-left: 5.8rem;
+  
+}
+
+.first-part h4{
+    font-weight: 500;
+  
+}
+
+.first-part p, .second-part p, .third-part p{
+  position: relative;
+    top: -20px; 
+  
+}
+
+.para-one {
+   font-size: 14px;
+}
+
+.second-part{
+    background-color: #0A72B9;
+    padding-top: 50px;
+    padding-left: 5.8rem;
+}
+.third-part{
+    background-color: rgb(7, 74, 119);
+    padding-left: 5.8rem;
+    padding-top: 50px;
+}
+
+.second-footer{
+   display: flex;
+   justify-content: space-around;
+}
+
+.heading{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.heading h1{
+    color:  rgb(7, 74, 119);
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+
+.line{
+    border-right: 0.1rem solid rgb(216, 221, 226);
+    height:60px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.first-time, .second-time, .third-time{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.first-time p, .second-time p, .third-time p{
+    position: relative;
+    bottom: 20px;
+    color: lightslategray;
+    font-size: 13px;
+}
+
+.first-time h4, .second-time h4, .third-time h4{
+    padding-top: 8px;
+    color: rgb(7, 74, 119);
+    font-size: 15px;
+   
+}
+
